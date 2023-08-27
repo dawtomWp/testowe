@@ -2,6 +2,7 @@
 ADMIN = "admin"
 MODERATOR = "moderator"
 USER = "user"
+BAN = "banned"
 
 # account_type = USER
 
@@ -83,7 +84,7 @@ result2 = "" # False, "", 0 - Falsely values
 import random
 
 num = 0
-iterations = 0
+iterations = 10
 
 # while num != 7:
 #     if(iterations >= 2000):
